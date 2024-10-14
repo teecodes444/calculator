@@ -19,13 +19,5 @@ function divide() {
 }
 
 const operate = (x, y) => {
-    if (operator === "+") {
-        add();
-    } else if (operator === '-') {
-        subtract();
-    } else if (operator === '*') {
-        multiply();
-    } else if (operator === '/') {
-        divide();
-    }
+    
 };
