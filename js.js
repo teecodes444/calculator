@@ -4,12 +4,13 @@ const calculate = document.querySelector('#calc');
 calculate.addEventListener('click', () => {
     const num1 = document.querySelector('#num1').value;
     const num2 = document.querySelector('#num2').value;
-    alert(num1)
-    alert(num2)
+    alert(`Number one is ${num1}. Number two is ${num2}`)
 })
 operators.forEach(operator => {
+    /* forEach needed to loop through each operator
+    element and add event listener to each one individually */
     operator.addEventListener('click', () => {
-        alert("it works")
+        operate(num1, num2)
     })
 });
 
@@ -29,14 +30,14 @@ const divide = () => {
     return x / y;
 }
 
-const operate = (x, y) => {
-    if (operator === "+") {
+const operate = (opp, x, y) => {
+    if (operators === "+") {
         add();
-    } else if (operator === '-') {
+    } else if (operators === '-') {
         subtract();
-    } else if (operator === '*') {
+    } else if (operators === '*') {
         multiply();
-    } else if (operator === '/') {
+    } else if (operators === '/') {
         divide();
     }
 };
