@@ -1,6 +1,6 @@
-let num1;
-let num2;
-let operator; 
+const num1 = document.querySelector('#num1').value;
+const num2 = document.querySelector('#num2').value;
+const operator = document.querySelectorAll('.operator'); 
 
 const add = () => {
     return x + y;
