@@ -1,6 +1,6 @@
-let num1;
-let num2;
-let operator; 
+let num1 = '';
+let num2 = '';
+let operator = ''; 
 
 function add() {
     return x + y;
