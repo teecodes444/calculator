@@ -1,5 +1,3 @@
-const num1 = document.querySelector('#num1').value;
-const num2 = document.querySelector('#num2').value;
 const operator = document.querySelectorAll('.operator'); 
 const calculate = document.querySelector('#calc');
 
@@ -8,6 +6,10 @@ calculate.addEventListener('click', () => {
     const num2 = document.querySelector('#num2').value;
     alert(num1)
     alert(num2)
+})
+
+operator.addEventListener('click', () => {
+    alert("it works")
 })
 
 const add = () => {
