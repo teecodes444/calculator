@@ -2,19 +2,19 @@ let num1;
 let num2;
 let operator; 
 
-const add = () => {
+function add() {
     return x + y;
 }
 
-const subtract = () => {
+function subtract() {
     return x - y;
 }
 
-const multiply = () => {
+function multiply() {
     return x * y;
 }
 
-const divide = () => {
+function divide() {
     return x / y;
 }
 
