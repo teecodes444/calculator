@@ -1,8 +1,11 @@
 const num1 = document.querySelector('#num1').value;
 const num2 = document.querySelector('#num2').value;
 const operator = document.querySelectorAll('.operator'); 
-const calculate = document.querySelector('#calculate');
+const calculate = document.querySelector('#calc');
 
+calculate.addEventListener('click', () => {
+    alert('It works!')
+})
 const add = () => {
     return x + y;
 }
