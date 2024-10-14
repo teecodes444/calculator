@@ -18,7 +18,7 @@ function divide() {
     return x / y;
 }
 
-const operate = (opp, x, y) => {
+const operate = (operator, x, y) => {
     if (operator === '+') {
         return add(x, y);
     } else if (operator === '-') {
