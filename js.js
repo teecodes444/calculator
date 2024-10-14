@@ -1,4 +1,4 @@
-const operator = document.querySelectorAll('.operator'); 
+const operators = document.querySelectorAll('.operator'); 
 const calculate = document.querySelector('#calc');
 
 calculate.addEventListener('click', () => {
@@ -7,10 +7,11 @@ calculate.addEventListener('click', () => {
     alert(num1)
     alert(num2)
 })
-
-operator.addEventListener('click', () => {
-    alert("it works")
-})
+operators.forEach(operator => {
+    operator.addEventListener('click', () => {
+        alert("it works")
+    })
+});
 
 const add = () => {
     return x + y;
