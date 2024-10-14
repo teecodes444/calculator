@@ -18,6 +18,6 @@ function divide() {
     return x / y;
 }
 
-const operate = (x, y) => {
+const operate = (opp, x, y) => {
     
 };
