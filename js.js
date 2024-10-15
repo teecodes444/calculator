@@ -5,6 +5,7 @@ const result = document.querySelector('#display');
 const digits = document.querySelectorAll('.digit');
 const operators = document.querySelectorAll('.operator');
 const clearBtn = document.querySelector('#clear');
+const equalBtn = document.querySelector('#equal');
 
 digits.forEach(digit => {
     digit.addEventListener('click', () => {
