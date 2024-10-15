@@ -17,6 +17,10 @@ digits.forEach(digit => {
             num2 += number;
             display.innerText = num2;
         }
+
+        if (num1 && num2 && operator) {
+            equalBtn.disabled = false;
+        }
         
     })
 });
