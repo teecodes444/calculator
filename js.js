@@ -23,8 +23,12 @@ digits.forEach(digit => {
 
 operators.forEach(op => {
     op.addEventListener('click', () => {
-        operator = op.textContent;
-        display.innerText = operator;
+        if (operator, num1, num2) {
+            
+        } else {
+            operator = op.textContent;
+            display.innerText = operator;
+        };
     })
 })
 
