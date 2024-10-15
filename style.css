@@ -1,6 +1,7 @@
 body{
     text-align: right;
 }
+
 #calDiv {
     height: 250px;
     width: 50%;
@@ -18,10 +19,12 @@ body{
 #digOppDiv button {
     width: 25%;
     height: 25%;
+    font-weight: bolder;
 }
 
 #clear{
     width: 100%;
+    font-weight: bolder;
 }
 
 div {
