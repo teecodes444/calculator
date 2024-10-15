@@ -1,7 +1,7 @@
 let num1 = '';
 let num2 = '';
 let operator = ''; 
-const result = document.querySelector('#display');
+const display = document.querySelector('#display');
 const digits = document.querySelectorAll('.digit');
 const operators = document.querySelectorAll('.operator');
 const clearBtn = document.querySelector('#clear');
@@ -12,10 +12,10 @@ digits.forEach(digit => {
         const number = digit.textContent;
         if (operator === '') {
             num1 += number;
-            result.innerText = num1;
+            display.innerText = num1;
         } else {
             num2 += number;
-            result.innerText = num2;
+            display.innerText = num2;
         }
         
     })
@@ -24,7 +24,7 @@ digits.forEach(digit => {
 operators.forEach(op => {
     op.addEventListener('click', () => {
         operator = op.textContent;
-        result.innerText = operator;
+        display.innerText = operator;
     })
 })
 
@@ -32,7 +32,14 @@ clearBtn.addEventListener('click', () => {
     num1 = '';
     num2 = '';
     operator = '';
-    result.innerText = '0';
+    display.innerText = '0';
+})
+
+equalBtn.addEventListener('click', () => {
+    if (num1 && num2 && operator) {
+        const result = operate(operator, num1, num2);
+        display.innerText = result;
+    }
 })
 
 
