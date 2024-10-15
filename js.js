@@ -7,7 +7,7 @@ const digits = document.querySelectorAll('.digit');
 digits.forEach(digit => {
     digit.addEventListener('click', () => {
         const number = digit.textContent;
-        result.innerText = digit;
+        result.innerText = number;
     })
 });
 
