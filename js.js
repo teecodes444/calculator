@@ -2,7 +2,7 @@ let num1 = '';
 let num2 = '';
 let operator = ''; 
 const result = document.querySelector('#display');
-
+digit = document.querySelectorAll('.digit').value;
 
 digits.forEach(digit => {
     result.innerText = digit;
