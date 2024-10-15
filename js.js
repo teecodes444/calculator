@@ -24,6 +24,7 @@ digits.forEach(digit => {
 operators.forEach(op => {
     op.addEventListener('click', () => {
         if (operator, num1, num2) {
+            const result = operate(operator, num1, num2);
             
         } else {
             operator = op.textContent;
