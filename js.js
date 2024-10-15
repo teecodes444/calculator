@@ -3,6 +3,7 @@ let num2 = '';
 let operator = ''; 
 const result = document.querySelector('#display');
 const digits = document.querySelectorAll('.digit');
+const operators = document.querySelectorAll('.operator');
 
 digits.forEach(digit => {
     digit.addEventListener('click', () => {
@@ -10,6 +11,16 @@ digits.forEach(digit => {
         result.innerText = number;
     })
 });
+
+operators.forEach(operator => {
+    operator.addEventListener('click', () => {
+        const opp = operator.textContent;
+        result.innerText = opp;
+    })
+})
+
+
+
 
 function add() {
     return x + y;
