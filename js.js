@@ -5,7 +5,9 @@ const result = document.querySelector('#display');
 digits = document.querySelectorAll('.digit').value;
 
 digits.forEach(digit => {
-    alert('it works')
+    digit.addEventListener('click', () => {
+        alert('it works')
+    })
 });
 
 function add() {
