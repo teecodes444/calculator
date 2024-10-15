@@ -2,7 +2,7 @@ let num1 = '';
 let num2 = '';
 let operator = ''; 
 const result = document.querySelector('#display');
-digits = document.querySelectorAll('.digit').value;
+const digits = document.querySelectorAll('.digit');
 
 digits.forEach(digit => {
     digit.addEventListener('click', () => {
