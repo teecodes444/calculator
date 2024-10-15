@@ -2,10 +2,10 @@ let num1 = '';
 let num2 = '';
 let operator = ''; 
 const result = document.querySelector('#display');
-digit = document.querySelectorAll('.digit').value;
+digits = document.querySelectorAll('.digit').value;
 
 digits.forEach(digit => {
-    result.innerText = digit;
+    alert('it works')
 });
 
 function add() {
