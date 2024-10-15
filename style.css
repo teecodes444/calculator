@@ -12,6 +12,11 @@
     flex-wrap: wrap;
 }
 
+#digOppDiv button {
+    width: 25%;
+    height: 25%;
+}
+
 #clear{
     width: 100%;
 }
