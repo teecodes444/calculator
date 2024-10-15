@@ -20,7 +20,9 @@ operators.forEach(operator => {
     })
 })
 
-
+clearBtn.addEventListener('click', () => {
+    result.innerText = '0';
+})
 
 function add() {
     return x + y;
