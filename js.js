@@ -4,6 +4,7 @@ let operator = '';
 const result = document.querySelector('#display');
 const digits = document.querySelectorAll('.digit');
 const operators = document.querySelectorAll('.operator');
+const clearBtn = document.querySelector('#clear');
 
 digits.forEach(digit => {
     digit.addEventListener('click', () => {
@@ -18,7 +19,6 @@ operators.forEach(operator => {
         result.innerText = opp;
     })
 })
-
 
 
 
