@@ -55,6 +55,7 @@ clearBtn.addEventListener('click', () => {
     num2 = '';
     operator = '';
     display.innerText = '0';
+    equalBtn.disabled = true;
 })
 
 equalBtn.addEventListener('click', () => {
@@ -65,6 +66,7 @@ equalBtn.addEventListener('click', () => {
         num1 = roundResult.toString();
         num2 = '';
         operator = '';
+        equalBtn.disabled = true;
     }
 })
 
