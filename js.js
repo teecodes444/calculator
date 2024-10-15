@@ -39,6 +39,8 @@ equalBtn.addEventListener('click', () => {
     if (num1 && num2 && operator) {
         const result = operate(operator, num1, num2);
         display.innerText = result;
+        num1 = result;
+        num2 = '';
     }
 })
 
@@ -69,5 +71,5 @@ const operate = (operator, x, y) => {
         return multiply(x,y);
     } else if (operator === '/') {
         return divide(x,y);
-    }
+    } 
 };
