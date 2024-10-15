@@ -25,20 +25,22 @@ clearBtn.addEventListener('click', () => {
     result.innerText = '0';
 })
 
+
+
 function add() {
-    return x + y;
+    return parseInt(x) + parseInt(y);
 }
 
 function subtract() {
-    return x - y;
+    return parseInt(x) - parseInt(y);
 }
 
 function multiply() {
-    return x * y;
+    return parseInt(x) * parseInt(y);
 }
 
 function divide() {
-    return x / y;
+    return parseInt(x) / parseInt(y);
 }
 
 const operate = (operator, x, y) => {
