@@ -50,7 +50,7 @@ equalBtn.addEventListener('click', () => {
         const result = operate(operator, num1, num2);
         let roundResult = Number((result).toFixed(2));
         display.innerText = roundResult;
-        num1 = roundResult;
+        num1 = roundResult.toString();
         num2 = '';
         operator = '';
     }
