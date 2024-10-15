@@ -10,6 +10,10 @@
     padding: 30px;
 }
 
+#clear{
+    width: 100%;
+}
+
 div {
     border: solid 2px black;
     padding: 10px;
