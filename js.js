@@ -38,8 +38,9 @@ clearBtn.addEventListener('click', () => {
 equalBtn.addEventListener('click', () => {
     if (num1 && num2 && operator) {
         const result = operate(operator, num1, num2);
-        display.innerText = result;
-        num1 = result;
+        let roundResult = Number((result).toFixed(2));
+        display.innerText = roundResult;
+        num1 = roundResult;
         num2 = '';
     }
 })
