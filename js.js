@@ -44,19 +44,19 @@ equalBtn.addEventListener('click', () => {
 
 
 
-function add() {
+function add(x,y) {
     return parseInt(x) + parseInt(y);
 }
 
-function subtract() {
+function subtract(x,y) {
     return parseInt(x) - parseInt(y);
 }
 
-function multiply() {
+function multiply(x,y) {
     return parseInt(x) * parseInt(y);
 }
 
-function divide() {
+function divide(x,y) {
     return parseInt(x) / parseInt(y);
 }
 
