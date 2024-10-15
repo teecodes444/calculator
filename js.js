@@ -21,10 +21,10 @@ digits.forEach(digit => {
     })
 });
 
-operators.forEach(operator => {
-    operator.addEventListener('click', () => {
-        const opp = operator.textContent;
-        result.innerText = opp;
+operators.forEach(op => {
+    op.addEventListener('click', () => {
+        operator = op.textContent;
+        result.innerText = operator;
     })
 })
 
