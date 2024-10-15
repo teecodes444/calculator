@@ -29,6 +29,9 @@ operators.forEach(op => {
 })
 
 clearBtn.addEventListener('click', () => {
+    num1 = '';
+    num2 = '';
+    operator = '';
     result.innerText = '0';
 })
 
