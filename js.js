@@ -85,7 +85,13 @@ function multiply(x,y) {
 }
 
 function divide(x,y) {
-    return parseInt(x) / parseInt(y);
+    let error = "You can't divide by 0, try again."
+    if (parseInt(y) === 0) {
+        display.innerText = error;
+    
+    } else {
+        return parseInt(x) / parseInt(y);
+    };
 }
 
 const operate = (operator, x, y) => {
