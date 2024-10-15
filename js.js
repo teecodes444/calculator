@@ -10,7 +10,14 @@ const equalBtn = document.querySelector('#equal');
 digits.forEach(digit => {
     digit.addEventListener('click', () => {
         const number = digit.textContent;
-        result.innerText = number;
+        if (operator === '') {
+            num1 += number;
+            result.innerText = num1;
+        } else {
+            num2 += number;
+            result.innerText = num2;
+        }
+        
     })
 });
 
