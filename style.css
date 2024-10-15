@@ -6,6 +6,14 @@
     justify-content: space-evenly;
 }
 
+#digOppDiv{
+    padding: 30px;
+}
+
+.digit, .operator{
+    
+}
+
 div {
     border: solid 2px black;
     padding: 10px;
