@@ -3,6 +3,11 @@ let num2 = '';
 let operator = ''; 
 const result = document.querySelector('#display');
 
+
+digits.forEach(digit => {
+    result.innerText = digit;
+});
+
 function add() {
     return x + y;
 }
