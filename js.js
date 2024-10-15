@@ -1,6 +1,7 @@
 let num1 = '';
 let num2 = '';
 let operator = ''; 
+const result = document.querySelector('#display');
 
 function add() {
     return x + y;
