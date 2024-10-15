@@ -6,7 +6,8 @@ const digits = document.querySelectorAll('.digit');
 
 digits.forEach(digit => {
     digit.addEventListener('click', () => {
-        alert('it works')
+        const number = digit.textContent;
+        result.innerText = digit;
     })
 });
 
