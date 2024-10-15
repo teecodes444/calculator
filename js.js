@@ -42,6 +42,7 @@ equalBtn.addEventListener('click', () => {
         display.innerText = roundResult;
         num1 = roundResult;
         num2 = '';
+        operator = '';
     }
 })
 
