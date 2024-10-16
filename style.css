@@ -2,14 +2,15 @@
 #heading {
     border: 0px;
     text-align: center;
-    font-weight: bolder;
+    font-weight: bold;
     padding: 25px;
     font-size: x-large;
     font-family: "Orbitron", monospace;
 }
 
 span{
-    font-style: italic;
+    font-weight: 900;
+    text-decoration: line-through;
 }
 
 
