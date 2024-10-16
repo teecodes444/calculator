@@ -5,6 +5,7 @@
     font-weight: bolder;
     padding: 25px;
     font-size: x-large;
+    font-family: "Orbitron", monospace;
 }
 
 span{
@@ -30,7 +31,9 @@ span{
 
 #display{
     background-color: #f7f7f7;
-    font-weight: bolder;
+    font-weight: bold;
+    font-family: "Orbitron", monospace;
+    
 }
 
 #digOppDiv button {
