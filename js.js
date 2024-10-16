@@ -57,6 +57,11 @@ decimal.addEventListener('click', () => {
             num1 += '.';
             display.innerText = num1;
         }
+    } else {
+        if (!num2.includes('.')) {
+            num2 += '.';
+            display.innerText = num2;
+        }
     }
 })
 
