@@ -44,9 +44,6 @@ operators.forEach(op => {
             operator = op.textContent;
             display.innerText = operator;
 
-            if (num1 && num2 && operator) {
-                equalBtn.disabled = false;
-            }
         } else {
             if (num1 && num2) {
                 const result = operate(operator, num1, num2);
