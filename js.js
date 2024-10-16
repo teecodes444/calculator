@@ -88,23 +88,23 @@ equalBtn.addEventListener('click', () => {
 
 
 function add(x,y) {
-    return parseInt(x) + parseInt(y);
+    return parseFloat(x) + parseFloat(y);
 }
 
 function subtract(x,y) {
-    return parseInt(x) - parseInt(y);
+    return parseFloat(x) - parseFloat(y);
 }
 
 function multiply(x,y) {
-    return parseInt(x) * parseInt(y);
+    return parseFloat(x) * parseFloat(y);
 }
 
 function divide(x,y) {
     let error = "You can't divide by 0. Press 'Clear' and try again."
-    if (parseInt(y) === 0) {
+    if (parseFloat(y) === 0) {
         display.innerText = error;
     } else {
-        return parseInt(x) / parseInt(y);
+        return parseFloat(x) / parseFloat(y);
     };
 }
 
