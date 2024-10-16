@@ -52,7 +52,12 @@ operators.forEach(op => {
 })
 
 decimal.addEventListener('click', () => {
-    alert("it works!")
+    if (operator === '') {
+        if (!num1.includes('.')) {
+            num1 += '.';
+            display.innerText = num1;
+        }
+    }
 })
 
 clearBtn.addEventListener('click', () => {
