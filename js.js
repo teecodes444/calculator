@@ -28,18 +28,7 @@ digits.forEach(digit => {
 
 operators.forEach(op => {
     op.addEventListener('click', () => {
-    /*     if (operator, num1, num2) {
-            const result = operate(operator, num1, num2);
-            let roundResult = Number((result).toFixed(2));
-            num1 = roundResult.toString();
-            num2 = '';
-            operator = op.textContent;
-            display.innerText = operator;
 
-        } else {
-            operator = op.textContent;
-            display.innerText = operator;
-        }; */
         if (num1 && !num2) {
             operator = op.textContent;
             display.innerText = operator;
