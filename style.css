@@ -32,6 +32,8 @@ span{
     width: 25%;
     height: 25%;
     font-weight: bolder;
+    border: white 1px solid;
+    padding: 5px;
 }
 
 #clear{
