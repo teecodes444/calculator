@@ -28,6 +28,10 @@ span{
     flex-wrap: wrap;
 }
 
+#display{
+    background-color: #f7f7f7;
+}
+
 #digOppDiv button {
     width: 25%;
     height: 25%;
