@@ -1,6 +1,6 @@
-body{
-    text-align: right;
-}
+
+
+
 
 #calDiv {
     height: 250px;
@@ -9,6 +9,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    text-align: right;
 }
 
 #digOppDiv{
