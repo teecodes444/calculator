@@ -47,6 +47,15 @@ operators.forEach(op => {
             if (num1 && num2 && operator) {
                 equalBtn.disabled = false;
             }
+        } else {
+            if (num1 && num2) {
+                const result = operate(operator, num1, num2);
+                let roundResult = Number((result).toFixed(2));
+                num1 = roundResult.toString();
+                num2 = '';
+                operator = op.textContent;
+                display.innerText = operator;
+            }
         }
     })
 })
