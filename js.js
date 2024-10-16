@@ -4,6 +4,7 @@ let operator = '';
 const display = document.querySelector('#display');
 const digits = document.querySelectorAll('.digit');
 const operators = document.querySelectorAll('.operator');
+const decimal = document.querySelector('#decimal');
 const clearBtn = document.querySelector('#clear');
 const equalBtn = document.querySelector('#equal');
 
