@@ -39,6 +39,8 @@ span{
 #clear{
     width: 100%;
     font-weight: bolder;
+    border: white 1px solid;
+    padding: 7px;
 }
 
 div {
