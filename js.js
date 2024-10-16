@@ -97,7 +97,7 @@ function multiply(x,y) {
 function divide(x,y) {
     let error = "You can't divide by 0. Press 'Clear' and try again."
     if (parseFloat(y) === 0) {
-        display.innerText = error;
+        alert(error);
     } else {
         return parseFloat(x) / parseFloat(y);
     };
