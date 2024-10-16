@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+span{
+    font-style: italic;
+}
+
 
 #calDiv {
     height: 250px;
