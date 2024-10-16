@@ -51,6 +51,10 @@ operators.forEach(op => {
     })
 })
 
+decimal.addEventListener('click', () => {
+    alert("it works!")
+})
+
 clearBtn.addEventListener('click', () => {
     num1 = '';
     num2 = '';
