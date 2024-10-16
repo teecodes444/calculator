@@ -13,7 +13,7 @@ span{
 
 
 #calDiv {
-    height: 250px;
+    height: 275px;
     margin: auto;
     width: 50%;
     display: flex;
@@ -33,7 +33,7 @@ span{
     height: 25%;
     font-weight: bolder;
     border: white 1px solid;
-    padding: 5px;
+    padding: 7px;
 }
 
 #clear{
